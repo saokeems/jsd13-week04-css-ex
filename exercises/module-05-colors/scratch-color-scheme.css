@@ -17,3 +17,70 @@
    7. .btn-secondary — background transparent, border var(--secondary), color var(--secondary)
    8. .site-footer — background var(--secondary), white text, text-align center, padding
    ============================================ */
+
+/* task 1 */
+:root {
+  --primary: #c85a32;
+  --secondary: #d99b66;
+  --accent: #e5a93c;
+  --bg: #fdfbf7;
+  --text: #2d241e;
+}
+
+/* task 2 */
+body {
+  background: var(--bg);
+  color: var(--primary);
+  font-family: sans-serif;
+}
+
+/* task 3 */
+.site-header {
+  background: var(--primary);
+  padding: 5px;
+  color: white;
+}
+
+/* task 4 */
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* task 4 */
+.site-header a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* task 5 */
+.content {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* task 6 */
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* task 7 */
+.btn-secondary {
+  background: transparent;
+  border-color: var(--secondary);
+  color: var(--secondary);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* task 8 */
+.site-footer {
+  background: var(--secondary);
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
