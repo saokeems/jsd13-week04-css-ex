@@ -3,7 +3,6 @@
    Fix the box sizing issues. Do NOT modify the HTML file.
    ============================================ */
 
-
 /* --- Bug 1 ---
    Goal: .box-overflow should be 300px total.
    Current: width: 300px + padding 20px + border 2px = 342px.
@@ -15,8 +14,8 @@
   padding: 20px;
   border: 2px solid #333;
   background: #e8f4f8;
+  box-sizing: border-box;
 }
-
 
 /* --- Bug 2 ---
    Goal: Gap between .box-a and .box-b should be 70px.
@@ -31,11 +30,11 @@
 }
 
 .box-b {
+  display: inline-block;
   margin-top: 30px;
   background: #dfe6e9;
   padding: 16px;
 }
-
 
 /* --- Bug 3 ---
    Goal: .bad-span should be 200px wide.
@@ -44,6 +43,7 @@
 */
 
 .bad-span {
+  display: inline-block;
   width: 200px;
   background: #74b9ff;
   padding: 8px;
