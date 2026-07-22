@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 400px;
+  height: 500px;
+  /* display: flex;
+  justify-content: start;
+  flex-direction: column; */
+  margin: 60px auto;
+  padding: 40px 32px;
+  border: 1px solid #4a4a4a;
+  color: #0d1b2a;
+}
+
+.card > h1 {
+  margin-bottom: 20px;
+}
+
+.card > p {
+  margin-bottom: 10px;
+}
+
+.stat-group {
+  margin-bottom: 20px;
+}
+
+.stat-figure {
+  display: inline-block;
+  background-color: #2cc855;
+  font-size: 36px;
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 18px;
+  margin-bottom: 12px;
+}
+
+.stat-desc {
+  font-weight: 700;
+}
